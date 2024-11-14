@@ -58,6 +58,7 @@ body{
   align-items: center;
   justify-content: space-between;
   padding: 8% 15%;
+    gap: 82px;
  
 
 }
@@ -115,7 +116,7 @@ display: flex;
 justify-content: center;
 gap: 16px;
    border:2px solid var(--cor-secundaria);
-  width: 378px;
+  width: 50%;
     text-align: center;
      border-radius: 8px;
       font-weight: 600;
@@ -127,6 +128,10 @@ gap: 16px;
 }
 .apresentacao__link__links:hover{
 background-color:var(--cor-secundaria);
+
+}
+.apresentacao__imagem{
+width: 50%;
 
 }
 .rodape{
